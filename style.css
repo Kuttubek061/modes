@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.circle {
+    width: 160px;
+    height: 55px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 0);
+}
+
+.modes {
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-image: url(https://png.pngtree.com/png-clipart/20190115/ourlarge/pngtree-cartoon-hand-painted-fine-sun-png-image_334011.jpg);
+    background-size: cover;
+    
+}
+
+.ter {
+    margin-left: 106px;
+    margin-top: 1px;
+    transition: 1s ease-in;
+    background-image: url(https://e7.pngegg.com/pngimages/991/669/png-clipart-moon-little-moon-smiley-half-moon.png);
+    background-size: cover;
+    transform: rotate(360deg);
+
+}
+
+.ret {
+    background-color: black;
+    transition: 1s;
+}
+
+.btnn {
+    margin-top: 10px;
+    width: 150px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+
+@media ()

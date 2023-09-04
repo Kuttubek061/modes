@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conttt">
+        <div class="circle">
+            <div onclick="darkMode()" id="ol" class="modes"></div>
+            <!-- <div class="btn"><button class="btnn" onclick="light()">light mode</button></div> -->
+        </div>
+    </div>
+    <script>
+        let ol = document.getElementById('ol')
+        let rep = document.body
+        
+
+        let darkMode = () => {
+            ol.classList.toggle('ter')
+            rep.classList.toggle('ret')
+           
+        }
+
+        // let light = () => {
+        //     ol.classList.remove('ter')
+        //     rep.classList.remove('ret')
+        // }
+    </script>
+</body>
+</html>
